@@ -1,4 +1,4 @@
-# Video-to-Portrait-Video-Seamless
+#Team_Endeavour
 
 # Portrait to Landscape Video Converter
 
