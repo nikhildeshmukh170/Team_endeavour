@@ -1,4 +1,4 @@
-#Team_Endeavour
+## Team_Endeavour
 
 # Portrait to Landscape Video Converter
 
@@ -41,19 +41,15 @@ This project converts a portrait-oriented video to a landscape video by adding a
     ```
 6. **Upload a portrait video and get the processed landscape video with blurred background.**
 
+## 🛠️ How It Works
 
-🛠️ How It Works
-Reads input portrait video frame-by-frame.
+- Reads input portrait video frame-by-frame.
+- Calculates output landscape width for a 16:9 aspect ratio.
+- Resizes each frame to fit the new width, preserving height.
+- Creates a blurred background from the original frame.
+- Places the resized frame centered on the blurred background.
+- Writes the processed frames to a new MP4 video file.
 
-Calculates output landscape width for a 16:9 aspect ratio.
-
-Resizes each frame to fit the new width, preserving height.
-
-Creates a blurred background from the original frame.
-
-Places the resized frame centered on the blurred background.
-
-Writes the processed frames to a new MP4 video file.
 
 📂 **Project Structure:**
 
